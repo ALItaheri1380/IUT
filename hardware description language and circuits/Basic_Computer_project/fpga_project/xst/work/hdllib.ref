@@ -1,0 +1,11 @@
+MO DataPath NULL ../DataPath_Section.v vlg67/_data_path.bin 1688135280
+MO Ind_Data NULL ipcore_dir/Ind_Data.v vlg28/_ind___data.bin 1688135280
+MO Register NULL ../Register_Section.v vlg09/_register.bin 1688135280
+MO Call NULL ../call_Section.v vlg38/_call.bin 1688135280
+MO SequenceCounter NULL ../SequenceCounter_Section.v vlg6D/_sequence_counter.bin 1688135280
+MO memory NULL ../Memory_Section.v vlg69/memory.bin 1688135280
+MO Control_Section NULL ../Control_Section.v vlg59/_control___section.bin 1688135280
+MO FilipFlop NULL ../FilipFlop_Section.v vlg49/_filip_flop.bin 1688135280
+MO ALU NULL ../ALU_Section.v vlg2A/_a_l_u.bin 1688135280
+MO Opcode_Section NULL ../Opcode_Section.v vlg4A/_opcode___section.bin 1688135280
+MO decoder NULL ../Decoder_Section.v vlg02/decoder.bin 1688135280

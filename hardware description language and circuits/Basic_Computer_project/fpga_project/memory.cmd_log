@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/final_Fpga_project/fpga_project/memory.xst" -ofn "D:/final_Fpga_project/fpga_project/memory.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc5vlx110t-ff1136-2 memory.ngc memory.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-2 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o memory_map.ncd memory.ngd memory.pcf 
+par -w -intstyle ise -ol high -mt off memory_map.ncd memory.ncd memory.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml memory.twx memory.ncd -o memory.twr memory.pcf 
+xst -intstyle ise -ifn "D:/final_Fpga_project/fpga_project/memory.xst" -ofn "D:/final_Fpga_project/fpga_project/memory.syr" 

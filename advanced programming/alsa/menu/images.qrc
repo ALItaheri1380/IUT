@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/photos">
+        <file>add.png</file>
+        <file>add_product.png</file>
+        <file>block.png</file>
+        <file>chenge_client.png</file>
+        <file>chenge_cus.png</file>
+        <file>info.png</file>
+        <file>client_registor.png</file>
+        <file>delete.png</file>
+        <file>deleteghob.png</file>
+        <file>post.png</file>
+        <file>increas.png</file>
+        <file>pey.png</file>
+        <file>member.png</file>
+        <file>login.png</file>
+        <file>post_global.png</file>
+        <file>registor.png</file>
+        <file>unblock.png</file>
+        <file>adminglob.png</file>
+        <file>clientglob.png</file>
+        <file>forget.png</file>
+        <file>reportg.ong.png</file>
+    </qresource>
+</RCC>

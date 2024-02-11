@@ -1,0 +1,267 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\final_Fpga_project\fpga_project
+T_opt
+Z1 Vo^0OZJjQZ@PnB38C3z<d83
+Z2 04 10 4 work Top_Module fast 0
+Z3 04 4 4 work glbl fast 0
+Z4 =1-ec63d731c4dc-649a8ae2-151-708
+Z5 o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip +acc
+Z6 n@_opt
+Z7 OL;O;10.1c;51
+Z8 dD:\final_Fpga_project\fpga_project
+T_opt1
+Z9 V<[m;E]OQNUoR6C9J3`LUY3
+Z10 04 8 4 work DataPath fast 0
+R3
+Z11 =1-ec63d731c4dc-649ee729-2b6-8ac
+R5
+Z12 n@_opt1
+R7
+R8
+vALU
+Z13 !s100 FAJbzMkP^bgV?zc;gSNgF0
+Z14 I1M6:fUQa:g`iK7KOS0=P41
+Z15 VJ]YN2ai_5BVFPZ>cc>I>m0
+R8
+Z16 w1687786289
+Z17 8../ALU_Section.v
+Z18 F../ALU_Section.v
+L0 1
+Z19 OL;L;10.1c;51
+r1
+31
+Z20 !s90 -reportprogress|300|../ALU_Section.v|
+Z21 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z22 n@a@l@u
+Z23 !s108 1688135484.123000
+Z24 !s107 ../ALU_Section.v|
+!i10b 1
+!s85 0
+vCall
+Z25 !s100 0dgKb10^[l<?ezS_J`IW?3
+Z26 I]EbhYzg^^`?Y@dCL9jA0B2
+Z27 V?WjzWYO1FF>M?Gd3RKN5>3
+R8
+Z28 w1687786924
+Z29 8../call_Section.v
+Z30 F../call_Section.v
+L0 1
+R19
+r1
+31
+Z31 !s90 -reportprogress|300|../call_Section.v|
+R21
+Z32 n@call
+Z33 !s108 1688135483.989000
+Z34 !s107 ../call_Section.v|
+!i10b 1
+!s85 0
+vControl_Section
+Z35 !s100 ic]`;oH1W83geB=bL`VR60
+Z36 IShnRQ@a[2aV10bL7_B2^e1
+Z37 V@1C[Eg14Reg@FfkHk4a@=2
+R8
+Z38 w1687786480
+Z39 8../Control_Section.v
+Z40 F../Control_Section.v
+L0 1
+R19
+r1
+31
+Z41 !s90 -reportprogress|300|../Control_Section.v|
+R21
+Z42 n@control_@section
+Z43 !s108 1688135483.879000
+Z44 !s107 ../Control_Section.v|
+!i10b 1
+!s85 0
+vDataPath
+Z45 !s100 =9H`:<`W3nXe[214cBgNK3
+Z46 Ia<jgUPE5=^RNHOdnW[K:<3
+Z47 V;8LhG^L941a0iEKPzL9]J0
+R8
+Z48 w1687849362
+Z49 8../DataPath_Section.v
+Z50 F../DataPath_Section.v
+L0 1
+R19
+r1
+31
+Z51 !s90 -reportprogress|300|../DataPath_Section.v|
+R21
+Z52 n@data@path
+Z53 !s108 1688135484.233000
+Z54 !s107 ../DataPath_Section.v|
+!i10b 1
+!s85 0
+vdecoder
+Z55 !s100 4DYUPQ[MOkBma837aLN5z2
+Z56 I[iC3OaQzMNkQ_mMP5e@l82
+Z57 VBf1<Yd@QB>=88]PlZk7O81
+R8
+Z58 w1687294939
+Z59 8../Decoder_Section.v
+Z60 F../Decoder_Section.v
+L0 1
+R19
+r1
+31
+Z61 !s90 -reportprogress|300|../Decoder_Section.v|
+R21
+Z62 !s108 1688135482.765000
+Z63 !s107 ../Decoder_Section.v|
+!i10b 1
+!s85 0
+vFilipFlop
+Z64 !s100 BY55oY>CPN@F2a6oSaFLN1
+Z65 IIjEBb5e[VozKXed^Wj^@Z2
+Z66 VGQzc:3kE8KHFg3dVi@8Y41
+R8
+Z67 w1687786432
+Z68 8../FilipFlop_Section.v
+Z69 F../FilipFlop_Section.v
+L0 1
+R19
+r1
+31
+Z70 !s90 -reportprogress|300|../FilipFlop_Section.v|
+R21
+Z71 n@filip@flop
+Z72 !s108 1688135483.724000
+Z73 !s107 ../FilipFlop_Section.v|
+!i10b 1
+!s85 0
+vglbl
+!i10b 1
+Z74 !s100 4BUMBVf6Tzc2Z4KLdBM[:3
+Z75 ID_fMj]QBM>Ecj5LGgB3e62
+Z76 VM[9mS]S:KA1i4VeCMX35[3
+R8
+Z77 w1381681120
+Z78 8C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v
+Z79 FC:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v
+L0 5
+R19
+r1
+!s85 0
+31
+!s108 1688135484.504000
+!s107 C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v|
+Z80 !s90 -reportprogress|300|C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v|
+R21
+vInd_Data
+Z81 !s100 KiM7?UYIcbKK@i0Fm:jl^3
+Z82 IdMC<55mbo:TO^CJ@Pbmb?2
+Z83 VEgbN89ILlD5W?I`C@VZ5V0
+R8
+Z84 w1687849212
+Z85 8ipcore_dir/Ind_Data.v
+Z86 Fipcore_dir/Ind_Data.v
+L0 39
+R19
+r1
+31
+Z87 !s90 -reportprogress|300|ipcore_dir/Ind_Data.v|
+R21
+Z88 n@ind_@data
+Z89 !s108 1688135482.655000
+Z90 !s107 ipcore_dir/Ind_Data.v|
+!i10b 1
+!s85 0
+vmemory
+Z91 !s100 dc0B<6gKoHm?@c2[GCKML3
+Z92 IAQ?i1e[?:4M1VeNzi7cQn0
+Z93 V[@EA>`oAPe?TWjMRFHOWc0
+R8
+Z94 w1688135258
+Z95 8../Memory_Section.v
+Z96 F../Memory_Section.v
+L0 2
+R19
+r1
+31
+Z97 !s90 -reportprogress|300|../Memory_Section.v|
+R21
+Z98 !s108 1688135483.559000
+Z99 !s107 ../Memory_Section.v|
+!i10b 1
+!s85 0
+vOpcode_Section
+Z100 !s100 <e7kl4ignDaUA^0Ak[7M60
+Z101 ILN[=M:LNj[`kk`RfIGLC60
+Z102 V=df[W:k2PMKhb8ziEeUnb3
+R8
+Z103 w1687786561
+Z104 8../Opcode_Section.v
+Z105 F../Opcode_Section.v
+L0 1
+R19
+r1
+31
+Z106 !s90 -reportprogress|300|../Opcode_Section.v|
+R21
+Z107 n@opcode_@section
+Z108 !s108 1688135483.390000
+Z109 !s107 ../Opcode_Section.v|
+!i10b 1
+!s85 0
+vRegister
+Z110 !s100 17X[4VE9blhSMB8Cje;Lg2
+Z111 IYk^W3i29a22z6JIczXo3i1
+Z112 VFoSUhB3LA=lT?;hYZQBSJ0
+R8
+Z113 w1687786698
+Z114 8../Register_Section.v
+Z115 F../Register_Section.v
+L0 1
+R19
+r1
+31
+Z116 !s90 -reportprogress|300|../Register_Section.v|
+R21
+Z117 n@register
+Z118 !s108 1688135483.223000
+Z119 !s107 ../Register_Section.v|
+!i10b 1
+!s85 0
+vSequenceCounter
+Z120 !s100 EadffRHd_SX5O@=j3;bhb2
+Z121 IoFg]^oYH9Kgo2jo;JQAm33
+Z122 V7W6gjM=Yn4>RToAaQnA?20
+R8
+Z123 w1687786893
+Z124 8../SequenceCounter_Section.v
+Z125 F../SequenceCounter_Section.v
+L0 1
+R19
+r1
+31
+Z126 !s90 -reportprogress|300|../SequenceCounter_Section.v|
+R21
+Z127 n@sequence@counter
+Z128 !s108 1688135482.397000
+Z129 !s107 ../SequenceCounter_Section.v|
+!i10b 1
+!s85 0
+vTop_Module
+Z130 !s100 4Nh]aLhkdR_=2`M6Z?R=S1
+Z131 IjM;=DLeNZZd[hR?7hQ4_k2
+Z132 V4PK?2Mn7jghKUgembcS;I0
+R8
+Z133 w1687794269
+Z134 8../TopModule.v
+Z135 F../TopModule.v
+L0 3
+R19
+r1
+31
+Z136 !s90 -reportprogress|300|../TopModule.v|
+R21
+Z137 n@top_@module
+!i10b 1
+!s85 0
+Z138 !s108 1688135484.344000
+Z139 !s107 ../TopModule.v|

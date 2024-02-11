@@ -1,0 +1,2 @@
+verilog work "ipcore_dir/Ind_Data.v"
+verilog work "../Memory_Section.v"
