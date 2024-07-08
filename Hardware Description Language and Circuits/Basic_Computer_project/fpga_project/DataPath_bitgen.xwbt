@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\final_Fpga_project\fpga_project\DataPath.ncd
+OUTFILE=D:\final_Fpga_project\fpga_project\DataPath.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-2ff1136
+WORKINGDIR=D:\final_Fpga_project\fpga_project
+LICENSE=ISE
+USER_INFO=__0_0_0

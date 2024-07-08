@@ -1,0 +1,27 @@
+NEWPROJECT .
+SETPROJECT .
+SET device=xc5vlx30
+SET flowvendor=Other
+SET createndf=False
+SET formalverification=False
+SET speedgrade=-3
+SET removerpms=False
+SET devicefamily=virtex5
+SET asysymbol=False
+SET simulationfiles=structural
+SET implementationfiletype=Ngc
+SET busformat=BusFormatAngleBracketNotRipped
+SET designentry=VHDL
+SET addpads=False
+SET foundationsym=False
+SET package=ff324
+SET vhdlsim=True
+SET verilogsim=False
+SELECT ICON_(ChipScope_Pro_-_Integrated_Controller) family Xilinx,_Inc. 1.06.a
+CSET number_control_ports=1
+CSET component_name=icon_pro
+CSET user_scan_chain=USER1
+CSET constraint_type=embedded
+CSET use_unused_bscan=false
+CSET use_ext_bscan=false
+GENERATE

@@ -1,0 +1,1200 @@
+    ____  ____
+   /   /\/   /
+  /___/  \  /    VENDOR      : Xilinx Inc.
+  \   \   \/     VERSION     : 14.7 (P.20131013)
+   \   \         APPLICATION : C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe
+   /   /         CONTENTS    : Compilation Log
+  /___/   /\     FILENAME    : compxlib.log
+  \   \  /  \    
+   \___\/\___\
+
+Release 14.7 - C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe 14.7 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Processing command line ...
+Library Source Paths => 'C:/Xilinx/14.7/ISE_DS/ISE'
+Current Working Directory => 'D:\final_Fpga_project\fpga_project'
+Compilation Mode = FAST
+Execute Mode = ON
+Scheduling library installation & compilation for architectures: virtex5
+
+Scheduling library installation & compilation for libraries: simprim unisim xilinxcorelib edk
+
+Signature:-
+------------------------------------------------------------------------------
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe -s mti_se -l all -p D:/Modelsim/win64 -arch virtex5 -lib unisim -lib simprim -lib xilinxcorelib -lib edk -exclude_superseded -intstyle ise 
+------------------------------------------------------------------------------
+
+Setting up the simulator 'mti_se' for compilation ...
+The executable path is set to 'D:/Modelsim/win64' ...
+Setting up the source libraries for simulator 'mti_se' ...
+Retrieving the .pao files for EDK library ...
+Building the library hierarchies from the .pao files for EDK library ...
+Assigning the netlist files to the hierarchies for EDK library ...
+
+
+
+Compiling Xilinx HDL Libraries for 'mti_se' simulator
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+Language => 'vhdl,verilog'
+The modelsim.ini file not found, create it.
+Output directory => 'C:\Xilinx\14.7\ISE_DS\ISE'
+
+
+Library verilog.secureip will not be compiled, because precompiled info is up to date.
+compxlib[verilog.secureip]: 0 error(s), 0 warning(s), 12.50 % complete
+
+
+
+Library vhdl.unisim:vhdl.unimacro will not be compiled, because precompiled info is up to date.
+
+Library vhdl.unisim:vhdl.secureip_vhdl_unisim will not be compiled, because precompiled info is up to date.
+
+Library vhdl.unisim will not be compiled, because precompiled info is up to date.
+compxlib[vhdl.unisim]: 0 error(s), 1 warning(s), 25.00 % complete
+
+
+
+Library verilog.unisim:verilog.unimacro will not be compiled, because precompiled info is up to date.
+
+Library verilog.unisim will not be compiled, because precompiled info is up to date.
+compxlib[verilog.unisim]: 0 error(s), 0 warning(s), 37.50 % complete
+
+
+
+Library vhdl.simprim:vhdl.secureip_vhdl_simprim will not be compiled, because precompiled info is up to date.
+
+Library vhdl.simprim will not be compiled, because precompiled info is up to date.
+compxlib[vhdl.simprim]: 0 error(s), 1 warning(s), 50.00 % complete
+
+
+
+Library verilog.simprim will not be compiled, because precompiled info is up to date.
+compxlib[verilog.simprim]: 0 error(s), 0 warning(s), 62.50 % complete
+
+
+
+Library vhdl.xilinxcorelib will not be compiled, because precompiled info is up to date.
+compxlib[vhdl.xilinxcorelib]: 0 error(s), 357 warning(s), 75.00 % complete
+
+
+
+Library verilog.xilinxcorelib will not be compiled, because precompiled info is up to date.
+compxlib[verilog.xilinxcorelib]: 0 error(s), 1 warning(s), 87.50 % complete
+
+
+Generating the file - 'C:\Xilinx\14.7\ISE_DS\ISE/.compedklib_ise_info' for EDK ...
+
+Library edk will be compiled, because precompiled info is outdated.
+Exclude Superseded EDK child library cdn_axi3_master_bfm_wrap_v1_00_a.
+Exclude Superseded EDK child library cdn_axi3_master_bfm_wrap_v2_01_a.
+
+Library edk:cdn_axi3_master_bfm_wrap_v2_01_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:cdn_axi3_master_bfm_wrap_v2_01_b]: 0 error(s), 0 warning(s), 0.66 % complete
+
+Exclude Superseded EDK child library cdn_axi3_slave_bfm_wrap_v1_00_a.
+Exclude Superseded EDK child library cdn_axi3_slave_bfm_wrap_v2_01_a.
+
+Library edk:cdn_axi3_slave_bfm_wrap_v2_01_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:cdn_axi3_slave_bfm_wrap_v2_01_b]: 0 error(s), 0 warning(s), 1.31 % complete
+
+Exclude Superseded EDK child library cdn_axi4_lite_master_bfm_wrap_v1_00_a.
+Exclude Superseded EDK child library cdn_axi4_lite_master_bfm_wrap_v2_00_a.
+Exclude Superseded EDK child library cdn_axi4_lite_master_bfm_wrap_v2_01_a.
+
+Library edk:cdn_axi4_lite_master_bfm_wrap_v2_01_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:cdn_axi4_lite_master_bfm_wrap_v2_01_b]: 0 error(s), 0 warning(s), 2.19 % complete
+
+Exclude Superseded EDK child library cdn_axi4_lite_slave_bfm_wrap_v1_00_a.
+Exclude Superseded EDK child library cdn_axi4_lite_slave_bfm_wrap_v2_00_a.
+Exclude Superseded EDK child library cdn_axi4_lite_slave_bfm_wrap_v2_01_a.
+
+Library edk:cdn_axi4_lite_slave_bfm_wrap_v2_01_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:cdn_axi4_lite_slave_bfm_wrap_v2_01_b]: 0 error(s), 0 warning(s), 3.06 % complete
+
+Exclude Superseded EDK child library cdn_axi4_master_bfm_wrap_v1_00_a.
+Exclude Superseded EDK child library cdn_axi4_master_bfm_wrap_v2_00_a.
+Exclude Superseded EDK child library cdn_axi4_master_bfm_wrap_v2_01_a.
+
+Library edk:cdn_axi4_master_bfm_wrap_v2_01_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:cdn_axi4_master_bfm_wrap_v2_01_b]: 0 error(s), 0 warning(s), 3.94 % complete
+
+Exclude Superseded EDK child library cdn_axi4_slave_bfm_wrap_v1_00_a.
+Exclude Superseded EDK child library cdn_axi4_slave_bfm_wrap_v2_00_a.
+Exclude Superseded EDK child library cdn_axi4_slave_bfm_wrap_v2_01_a.
+
+Library edk:cdn_axi4_slave_bfm_wrap_v2_01_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:cdn_axi4_slave_bfm_wrap_v2_01_b]: 0 error(s), 0 warning(s), 4.81 % complete
+
+Exclude Superseded EDK child library cdn_axi4_streaming_master_bfm_wrap_v1_00_a.
+Exclude Superseded EDK child library cdn_axi4_streaming_master_bfm_wrap_v2_01_a.
+
+Library edk:cdn_axi4_streaming_master_bfm_wrap_v2_01_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:cdn_axi4_streaming_master_bfm_wrap_v2_01_b]: 0 error(s), 0 warning(s), 5.47 % complete
+
+Exclude Superseded EDK child library cdn_axi4_streaming_slave_bfm_wrap_v1_00_a.
+Exclude Superseded EDK child library cdn_axi4_streaming_slave_bfm_wrap_v2_01_a.
+
+Library edk:cdn_axi4_streaming_slave_bfm_wrap_v2_01_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:cdn_axi4_streaming_slave_bfm_wrap_v2_01_b]: 0 error(s), 0 warning(s), 6.13 % complete
+
+
+Library edk:proc_common_v3_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:proc_common_v3_00_a]: 0 error(s), 0 warning(s), 6.35 % complete
+
+Exclude Superseded EDK child library ahblite_axi_bridge_v1_00_a.
+
+Library edk:common_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:common_v1_00_a]: 0 error(s), 0 warning(s), 6.78 % complete
+
+
+Library edk:apu_fpu_v3_10_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:apu_fpu_v3_10_a]: 0 error(s), 0 warning(s), 7.00 % complete
+
+
+Library edk:apu_fpu_virtex5_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:apu_fpu_virtex5_v1_01_a]: 0 error(s), 0 warning(s), 7.22 % complete
+
+Exclude Superseded EDK child library axi2axi_connector_v1_00_a.
+Exclude Superseded EDK child library axi_7series_ddrx_v1_06_a.
+Exclude Superseded EDK child library axi_7series_ddrx_v1_07_a.
+Exclude Superseded EDK child library axi_7series_ddrx_v1_08_a.
+Exclude Superseded EDK child library axi_ahblite_bridge_v1_00_a.
+Exclude Superseded EDK child library axi_ahblite_bridge_v1_01_a.
+Exclude Superseded EDK child library axi_apb_bridge_v1_00_a.
+Exclude Superseded EDK child library axi_apb_bridge_v1_01_a.
+Exclude Superseded EDK child library axi_bram_ctrl_v1_03_a.
+
+Library edk:lib_common_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:lib_common_v1_00_a]: 0 error(s), 0 warning(s), 9.41 % complete
+
+
+Library edk:axi_lite_ipif_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_lite_ipif_v1_01_a]: 0 error(s), 0 warning(s), 9.63 % complete
+
+Exclude Superseded EDK child library axi_can_v1_01_a.
+Exclude Superseded EDK child library axi_can_v1_02_a.
+Exclude Superseded EDK child library axi_can_v1_03_a.
+Exclude Superseded EDK child library axi_datamover_v3_00_a.
+
+Library edk:axi_sg_v3_00_a will be compiled, because precompiled info is outdated.
+--> Compiling edk:axi_sg_v3_00_a library ...
+    > edk:axi_sg_v3_00_a library compiled from 'C:\Xilinx\14.7\ISE_DS\EDK/hw/XilinxProcessorIPLib/pcores/axi_sg_v3_00_a/data/axi_sg_v2_1_0.pao'
+    > edk:axi_sg_v3_00_a library compiled to 'C:\Xilinx\14.7\ISE_DS\ISE\mti_se\10.1c\nt64/edk/axi_sg_v3_00_a'
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(mti_se::axi_sg_v3_00_a)
+Modifying modelsim.ini
+
+** Error: C:\Xilinx\14.7\ISE_DS\EDK/hw/XilinxProcessorIPLib/pcores/axi_sg_v3_00_a/hdl/vhdl/axi_sg.vhd(148): Library axi_datamover_v3_00_a not found.
+** Error: C:\Xilinx\14.7\ISE_DS\EDK/hw/XilinxProcessorIPLib/pcores/axi_sg_v3_00_a/hdl/vhdl/axi_sg.vhd(149): (vcom-1136) Unknown identifier "axi_datamover_v3_00_a".
+** Error: C:\Xilinx\14.7\ISE_DS\EDK/hw/XilinxProcessorIPLib/pcores/axi_sg_v3_00_a/hdl/vhdl/axi_sg.vhd(155): VHDL Compiler exiting
+
+
+END_COMPILATION_MESSAGES(mti_se::axi_sg_v3_00_a)
+==============================================================================
+compxlib[edk:axi_sg_v3_00_a]: 1 error(s), 0 warning(s), 10.72 % complete
+
+INFO:Compxlib - Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(mti_se::axi_sg_v3_00_a)' and 'END_COMPILATION_MESSAGES(mti_se::axi_sg_v3_00_a)' in the log file compxlib.log for details of compilation error(s).
+
+Exclude Superseded EDK child library axi_cdma_v3_02_a.
+
+Library edk:axi_datamover_v4_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_datamover_v4_00_a]: 0 error(s), 0 warning(s), 11.16 % complete
+
+
+Library edk:axi_sg_v4_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_sg_v4_00_a]: 0 error(s), 0 warning(s), 11.38 % complete
+
+Exclude Superseded EDK child library axi_cdma_v3_03_a.
+Exclude Superseded EDK child library axi_datamover_v4_02_a.
+
+Library edk:axi_sg_v4_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_sg_v4_03_a]: 0 error(s), 0 warning(s), 12.04 % complete
+
+Exclude Superseded EDK child library axi_cdma_v3_04_a.
+Exclude Superseded EDK child library axi_chip2chip_v1_00_a.
+Exclude Superseded EDK child library axi_chip2chip_v2_00_a.
+Exclude Superseded EDK child library axi_chip2chip_v3_00_a.
+
+Library edk:axi_datamover_v4_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_datamover_v4_01_a]: 0 error(s), 0 warning(s), 13.13 % complete
+
+Exclude Superseded EDK child library axi_dma_v5_00_a.
+
+Library edk:axi_sg_v4_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_sg_v4_01_a]: 0 error(s), 0 warning(s), 13.57 % complete
+
+Exclude Superseded EDK child library axi_dma_v6_01_a.
+
+Library edk:axi_sg_v4_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_sg_v4_02_a]: 0 error(s), 0 warning(s), 14.00 % complete
+
+Exclude Superseded EDK child library axi_dma_v6_02_a.
+Exclude Superseded EDK child library axi_dma_v6_03_a.
+
+Library edk:axi_lite_ipif_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_lite_ipif_v1_00_a]: 0 error(s), 0 warning(s), 14.66 % complete
+
+
+Library edk:axi_slave_burst_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_slave_burst_v1_00_a]: 0 error(s), 1 warning(s), 14.88 % complete
+
+
+Library edk:emc_common_v5_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:emc_common_v5_00_a]: 0 error(s), 0 warning(s), 15.10 % complete
+
+Exclude Superseded EDK child library axi_emc_v1_00_a.
+
+Library edk:emc_common_v5_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:emc_common_v5_01_a]: 0 error(s), 0 warning(s), 15.54 % complete
+
+Exclude Superseded EDK child library axi_emc_v1_01_a.
+
+Library edk:emc_common_v5_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:emc_common_v5_02_a]: 0 error(s), 0 warning(s), 15.97 % complete
+
+Exclude Superseded EDK child library axi_emc_v1_02_a.
+
+Library edk:emc_common_v5_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:emc_common_v5_03_a]: 0 error(s), 0 warning(s), 16.41 % complete
+
+Exclude Superseded EDK child library axi_emc_v1_03_a.
+
+Library edk:emc_common_v5_03_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:emc_common_v5_03_b]: 0 error(s), 0 warning(s), 16.85 % complete
+
+Exclude Superseded EDK child library axi_emc_v1_03_b.
+
+Library edk:axi_enhanced_pcie_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_enhanced_pcie_v1_00_a]: 0 error(s), 0 warning(s), 17.29 % complete
+
+
+Library edk:axi_enhanced_pcie_v1_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_enhanced_pcie_v1_02_a]: 0 error(s), 0 warning(s), 17.51 % complete
+
+
+Library edk:axi_enhanced_pcie_v1_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_enhanced_pcie_v1_03_a]: 0 error(s), 0 warning(s), 17.72 % complete
+
+
+Library edk:axi_enhanced_pcie_v1_04_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_enhanced_pcie_v1_04_a]: 0 error(s), 0 warning(s), 17.94 % complete
+
+Exclude Superseded EDK child library axi_epc_v1_00_a.
+
+Library edk:lib_common_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:lib_common_v1_01_a]: 0 error(s), 0 warning(s), 18.38 % complete
+
+
+Library edk:axi_ethernet_avb_wrap_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_avb_wrap_v1_01_a]: 0 error(s), 0 warning(s), 18.60 % complete
+
+
+Library edk:axi_ethernet_avb_wrap_v2_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_avb_wrap_v2_01_a]: 0 error(s), 0 warning(s), 18.82 % complete
+
+
+Library edk:axi_ethernet_avb_wrap_v3_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_avb_wrap_v3_00_a]: 0 error(s), 0 warning(s), 19.04 % complete
+
+
+Library edk:axi_ethernet_pcs_pma_wrap_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_pcs_pma_wrap_v1_01_a]: 0 error(s), 0 warning(s), 19.26 % complete
+
+
+Library edk:axi_ethernet_pcs_pma_wrap_v2_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_pcs_pma_wrap_v2_01_a]: 0 error(s), 0 warning(s), 19.47 % complete
+
+
+Library edk:axi_ethernet_pcs_pma_wrap_v3_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_pcs_pma_wrap_v3_00_a]: 0 error(s), 0 warning(s), 19.69 % complete
+
+
+Library edk:axi_ethernet_pcs_pma_wrap_v3_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_pcs_pma_wrap_v3_01_a]: 0 error(s), 0 warning(s), 19.91 % complete
+
+
+Library edk:axi_ethernet_soft_temac_wrap_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_soft_temac_wrap_v1_01_a]: 0 error(s), 0 warning(s), 20.13 % complete
+
+
+Library edk:axi_ethernet_soft_temac_wrap_v2_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_soft_temac_wrap_v2_00_a]: 0 error(s), 0 warning(s), 20.35 % complete
+
+
+Library edk:axi_ethernet_soft_temac_wrap_v2_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_soft_temac_wrap_v2_01_a]: 0 error(s), 0 warning(s), 20.57 % complete
+
+
+Library edk:axi_ethernet_soft_temac_wrap_v3_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_soft_temac_wrap_v3_00_a]: 0 error(s), 0 warning(s), 20.79 % complete
+
+
+Library edk:axi_ethernet_soft_temac_wrap_v3_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_soft_temac_wrap_v3_01_a]: 0 error(s), 0 warning(s), 21.01 % complete
+
+
+Library edk:axi_ethernet_stat_wrap_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_stat_wrap_v1_01_a]: 0 error(s), 0 warning(s), 21.23 % complete
+
+
+Library edk:axi_ethernet_stat_wrap_v2_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_stat_wrap_v2_01_a]: 0 error(s), 0 warning(s), 21.44 % complete
+
+Exclude Superseded EDK child library axi_ethernet_v1_01_a.
+Exclude Superseded EDK child library axi_ethernet_v2_00_a.
+Exclude Superseded EDK child library axi_ethernet_v2_01_a.
+Exclude Superseded EDK child library axi_ethernet_v3_00_a.
+
+Library edk:axi_ethernet_v3_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernet_v3_01_a]: 0 error(s), 0 warning(s), 22.54 % complete
+
+Exclude Superseded EDK child library axi_ethernetlite_v1_00_a.
+Exclude Superseded EDK child library axi_ethernetlite_v1_01_a.
+
+Library edk:axi_ethernetlite_v1_01_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_ethernetlite_v1_01_b]: 0 error(s), 1 warning(s), 23.19 % complete
+
+Exclude Superseded EDK child library axi_exerciser_v4_00_a.
+Exclude Superseded EDK child library axi_ext_master_conn_v1_00_a.
+Exclude Superseded EDK child library axi_ext_slave_conn_v1_00_a.
+Exclude Superseded EDK child library axi_fifo_mm_s_v1_00_a.
+Exclude Superseded EDK child library axi_fifo_mm_s_v2_00_a.
+Exclude Superseded EDK child library axi_fifo_mm_s_v2_01_a.
+Exclude Superseded EDK child library axi_fifo_mm_s_v3_00_a.
+
+Library edk:interrupt_control_v2_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:interrupt_control_v2_01_a]: 0 error(s), 0 warning(s), 24.95 % complete
+
+Exclude Superseded EDK child library axi_gpio_v1_01_a.
+Exclude Superseded EDK child library axi_gpio_v1_01_b.
+
+Library edk:hwicap_v7_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:hwicap_v7_00_a]: 0 error(s), 0 warning(s), 25.60 % complete
+
+Exclude Superseded EDK child library axi_hwicap_v1_00_a.
+Exclude Superseded EDK child library axi_hwicap_v2_00_a.
+Exclude Superseded EDK child library axi_hwicap_v2_01_a.
+Exclude Superseded EDK child library axi_hwicap_v2_02_a.
+Exclude Superseded EDK child library axi_hwicap_v2_03_a.
+Exclude Superseded EDK child library axi_iic_v1_01_a.
+Exclude Superseded EDK child library axi_iic_v1_01_b.
+Exclude Superseded EDK child library axi_iic_v1_02_a.
+Exclude Superseded EDK child library axi_intc_v1_00_a.
+Exclude Superseded EDK child library axi_intc_v1_01_a.
+Exclude Superseded EDK child library axi_intc_v1_02_a.
+Exclude Superseded EDK child library axi_intc_v1_03_a.
+Exclude Superseded EDK child library axi_intc_v1_04_a.
+Exclude Superseded EDK child library axi_interconnect_v1_04_a.
+Exclude Superseded EDK child library axi_interconnect_v1_05_a.
+Exclude Superseded EDK child library axi_interconnect_v1_06_a.
+
+Library edk:axi_master_burst_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_master_burst_v1_00_a]: 0 error(s), 0 warning(s), 29.32 % complete
+
+
+Library edk:axi_master_lite_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_master_lite_v1_00_a]: 0 error(s), 0 warning(s), 29.54 % complete
+
+
+Library edk:axi_master_lite_v2_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_master_lite_v2_00_a]: 0 error(s), 0 warning(s), 29.76 % complete
+
+
+Library edk:axi_pcie_mm_s_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_pcie_mm_s_v1_00_a]: 0 error(s), 6 warning(s), 29.98 % complete
+
+
+Library edk:axi_pcie_mm_s_v1_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_pcie_mm_s_v1_02_a]: 0 error(s), 6 warning(s), 30.20 % complete
+
+
+Library edk:axi_pcie_mm_s_v1_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_pcie_mm_s_v1_03_a]: 0 error(s), 6 warning(s), 30.42 % complete
+
+
+Library edk:axi_pcie_mm_s_v1_04_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_pcie_mm_s_v1_04_a]: 0 error(s), 6 warning(s), 30.63 % complete
+
+Exclude Superseded EDK child library axi_pcie_v1_00_a.
+Exclude Superseded EDK child library axi_pcie_v1_02_a.
+Exclude Superseded EDK child library axi_pcie_v1_03_a.
+Exclude Superseded EDK child library axi_pcie_v1_04_a.
+
+Library edk:axi_pcie_v1_05_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_pcie_v1_05_a]: 0 error(s), 6 warning(s), 31.73 % complete
+
+
+Library edk:axi_pcie_v1_06_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_pcie_v1_06_a]: 0 error(s), 6 warning(s), 31.95 % complete
+
+
+Library edk:axi_pcie_v1_07_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_pcie_v1_07_a]: 0 error(s), 6 warning(s), 32.17 % complete
+
+
+Library edk:axi_pcie_v1_08_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_pcie_v1_08_a]: 0 error(s), 6 warning(s), 32.39 % complete
+
+
+Library edk:axi_pcie_v1_09_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_pcie_v1_09_a]: 0 error(s), 6 warning(s), 32.60 % complete
+
+Exclude Superseded EDK child library axi_perf_mon_v1_00_a.
+Exclude Superseded EDK child library axi_perf_mon_v2_00_a.
+Exclude Superseded EDK child library axi_perf_mon_v2_01_a.
+Exclude Superseded EDK child library axi_perf_mon_v3_00_a.
+Exclude Superseded EDK child library axi_plbv46_bridge_v2_00_a.
+Exclude Superseded EDK child library axi_plbv46_bridge_v2_01_a.
+Exclude Superseded EDK child library axi_plbv46_bridge_v2_02_a.
+
+Library edk:axi_protocol_checker_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_protocol_checker_v1_01_a]: 0 error(s), 0 warning(s), 34.35 % complete
+
+Exclude Superseded EDK child library axi_quad_spi_v1_00_a.
+Exclude Superseded EDK child library axi_quad_spi_v2_00_a.
+Exclude Superseded EDK child library axi_quad_spi_v2_00_b.
+
+Library edk:axi_s6_ddrx_v1_06_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_s6_ddrx_v1_06_a]: 0 error(s), 0 warning(s), 35.23 % complete
+
+
+Library edk:axi_sg_v3_01_a will be compiled, because precompiled info is outdated.
+--> Compiling edk:axi_sg_v3_01_a library ...
+    > edk:axi_sg_v3_01_a library compiled from 'C:\Xilinx\14.7\ISE_DS\EDK/hw/XilinxProcessorIPLib/pcores/axi_sg_v3_01_a/data/axi_sg_v2_1_0.pao'
+    > edk:axi_sg_v3_01_a library compiled to 'C:\Xilinx\14.7\ISE_DS\ISE\mti_se\10.1c\nt64/edk/axi_sg_v3_01_a'
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(mti_se::axi_sg_v3_01_a)
+Modifying modelsim.ini
+
+** Error: C:\Xilinx\14.7\ISE_DS\EDK/hw/XilinxProcessorIPLib/pcores/axi_sg_v3_01_a/hdl/vhdl/axi_sg.vhd(148): Library axi_datamover_v4_02_a not found.
+** Error: C:\Xilinx\14.7\ISE_DS\EDK/hw/XilinxProcessorIPLib/pcores/axi_sg_v3_01_a/hdl/vhdl/axi_sg.vhd(149): (vcom-1136) Unknown identifier "axi_datamover_v4_02_a".
+** Error: C:\Xilinx\14.7\ISE_DS\EDK/hw/XilinxProcessorIPLib/pcores/axi_sg_v3_01_a/hdl/vhdl/axi_sg.vhd(155): VHDL Compiler exiting
+
+
+END_COMPILATION_MESSAGES(mti_se::axi_sg_v3_01_a)
+==============================================================================
+compxlib[edk:axi_sg_v3_01_a]: 1 error(s), 0 warning(s), 35.45 % complete
+
+INFO:Compxlib - Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(mti_se::axi_sg_v3_01_a)' and 'END_COMPILATION_MESSAGES(mti_se::axi_sg_v3_01_a)' in the log file compxlib.log for details of compilation error(s).
+
+
+Library edk:axi_slave_burst_v1_00_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_slave_burst_v1_00_b]: 0 error(s), 1 warning(s), 35.67 % complete
+
+Exclude Superseded EDK child library axi_spi_v1_01_a.
+Exclude Superseded EDK child library axi_spi_v1_02_a.
+
+Library edk:sysace_common_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:sysace_common_v1_01_a]: 0 error(s), 0 warning(s), 36.32 % complete
+
+Exclude Superseded EDK child library axi_sysace_v1_00_a.
+
+Library edk:axi_sysace_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_sysace_v1_01_a]: 0 error(s), 0 warning(s), 36.76 % complete
+
+Exclude Superseded EDK child library axi_sysmon_adc_v1_01_a.
+
+Library edk:axi_sysmon_adc_v2_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_sysmon_adc_v2_00_a]: 0 error(s), 0 warning(s), 37.20 % complete
+
+Exclude Superseded EDK child library axi_timebase_wdt_v1_00_a.
+Exclude Superseded EDK child library axi_timebase_wdt_v1_01_a.
+Exclude Superseded EDK child library axi_timer_v1_02_a.
+Exclude Superseded EDK child library axi_timer_v1_03_a.
+Exclude Superseded EDK child library axi_uart16550_v1_01_a.
+Exclude Superseded EDK child library axi_uartlite_v1_01_a.
+Exclude Superseded EDK child library axi_uartlite_v1_02_a.
+Exclude Superseded EDK child library axi_usb2_device_v1_00_a.
+Exclude Superseded EDK child library axi_usb2_device_v2_00_a.
+Exclude Superseded EDK child library axi_usb2_device_v3_00_a.
+Exclude Superseded EDK child library axi_usb2_device_v3_01_a.
+Exclude Superseded EDK child library axi_usb2_device_v3_02_a.
+
+Library edk:axi_v6_ddrx_v1_06_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:axi_v6_ddrx_v1_06_a]: 0 error(s), 0 warning(s), 40.04 % complete
+
+Exclude Superseded EDK child library axi_vdma_v5_02_a.
+Exclude Superseded EDK child library axi_vdma_v5_03_a.
+Exclude Superseded EDK child library axi_vdma_v5_04_a.
+Exclude Superseded EDK child library axi_xadc_v1_00_a.
+Exclude Superseded EDK child library axis_vbroadcaster_v1_00_a.
+Exclude Superseded EDK child library axis_vremapper_v1_00_a.
+
+Library edk:block_plus_v1_10_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:block_plus_v1_10_a]: 0 error(s), 0 warning(s), 41.58 % complete
+
+
+Library edk:block_plus_v1_10_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:block_plus_v1_10_b]: 0 error(s), 0 warning(s), 41.79 % complete
+
+
+Library edk:block_plus_v1_12_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:block_plus_v1_12_a]: 0 error(s), 0 warning(s), 42.01 % complete
+
+
+Library edk:block_plus_v1_13_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:block_plus_v1_13_a]: 0 error(s), 0 warning(s), 42.23 % complete
+
+Exclude Superseded EDK child library chipscope_axi_monitor_v3_02_a.
+Exclude Superseded EDK child library chipscope_axi_monitor_v3_03_a.
+Exclude Superseded EDK child library chipscope_axi_monitor_v3_05_a.
+Exclude Superseded EDK child library chipscope_icon_v1_04_a.
+Exclude Superseded EDK child library chipscope_icon_v1_05_a.
+
+Library edk:chipscope_icon_v1_06_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:chipscope_icon_v1_06_a]: 0 error(s), 0 warning(s), 43.54 % complete
+
+Exclude Superseded EDK child library chipscope_ila_v1_03_a.
+Exclude Superseded EDK child library chipscope_ila_v1_04_a.
+
+Library edk:chipscope_ila_v1_05_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:chipscope_ila_v1_05_a]: 0 error(s), 0 warning(s), 44.20 % complete
+
+Exclude Superseded EDK child library chipscope_opb_iba_v1_01_a.
+Exclude Superseded EDK child library chipscope_plb_iba_v1_01_a.
+
+Library edk:chipscope_plbv46_iba_v1_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:chipscope_plbv46_iba_v1_03_a]: 0 error(s), 0 warning(s), 44.86 % complete
+
+Exclude Superseded EDK child library chipscope_vio_v1_03_a.
+Exclude Superseded EDK child library chipscope_vio_v1_04_a.
+
+Library edk:chipscope_vio_v1_05_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:chipscope_vio_v1_05_a]: 0 error(s), 0 warning(s), 45.51 % complete
+
+Exclude Superseded EDK child library clock_generator_v3_02_a.
+Exclude Superseded EDK child library clock_generator_v4_00_a.
+Exclude Superseded EDK child library clock_generator_v4_01_a.
+Exclude Superseded EDK child library clock_generator_v4_02_a.
+
+Library edk:clock_generator_v4_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:clock_generator_v4_03_a]: 0 error(s), 0 warning(s), 46.61 % complete
+
+
+Library edk:csum_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:csum_v1_00_a]: 0 error(s), 0 warning(s), 46.83 % complete
+
+
+Library edk:dcm_module_v1_00_e will not be compiled, because precompiled info is up to date.
+compxlib[edk:dcm_module_v1_00_e]: 0 error(s), 0 warning(s), 47.05 % complete
+
+
+Library edk:intc_core_v2_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:intc_core_v2_00_a]: 0 error(s), 1 warning(s), 47.26 % complete
+
+
+Library edk:dcr_intc_v2_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:dcr_intc_v2_00_a]: 0 error(s), 0 warning(s), 47.48 % complete
+
+
+Library edk:dcr_v29_v1_00_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:dcr_v29_v1_00_b]: 0 error(s), 0 warning(s), 47.70 % complete
+
+
+Library edk:dsbram_if_cntlr_v3_00_c will not be compiled, because precompiled info is up to date.
+compxlib[edk:dsbram_if_cntlr_v3_00_c]: 0 error(s), 0 warning(s), 47.92 % complete
+
+
+Library edk:dsocm_v10_v2_00_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:dsocm_v10_v2_00_b]: 0 error(s), 0 warning(s), 48.14 % complete
+
+
+Library edk:emc_common_v2_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:emc_common_v2_00_a]: 0 error(s), 0 warning(s), 48.36 % complete
+
+
+Library edk:emc_common_v4_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:emc_common_v4_01_a]: 0 error(s), 0 warning(s), 48.58 % complete
+
+
+Library edk:eth_stat_wrap_v2_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:eth_stat_wrap_v2_02_a]: 0 error(s), 0 warning(s), 48.80 % complete
+
+
+Library edk:eth_stat_wrap_v2_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:eth_stat_wrap_v2_03_a]: 0 error(s), 0 warning(s), 49.02 % complete
+
+
+Library edk:fcb2fsl_bridge_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:fcb2fsl_bridge_v1_00_a]: 0 error(s), 0 warning(s), 49.23 % complete
+
+
+Library edk:fcb_v10_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:fcb_v10_v1_00_a]: 0 error(s), 0 warning(s), 49.45 % complete
+
+
+Library edk:fcb_v20_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:fcb_v20_v1_00_a]: 0 error(s), 0 warning(s), 49.67 % complete
+
+Exclude Superseded EDK child library fit_timer_v1_01_b.
+Exclude Superseded EDK child library fit_timer_v1_01_c.
+Exclude Superseded EDK child library fsl_v20_v2_11_e.
+Exclude Superseded EDK child library fsl_v20_v2_11_f.
+
+Library edk:gig_ethernet_pcs_pma_v11_04_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:gig_ethernet_pcs_pma_v11_04_a]: 0 error(s), 0 warning(s), 50.77 % complete
+
+
+Library edk:gig_ethernet_pcs_pma_v11_05_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:gig_ethernet_pcs_pma_v11_05_a]: 0 error(s), 0 warning(s), 50.98 % complete
+
+
+Library edk:gmii_to_rgmii_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:gmii_to_rgmii_v1_00_a]: 0 error(s), 0 warning(s), 51.20 % complete
+
+
+Library edk:gmii_to_rgmii_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:gmii_to_rgmii_v1_01_a]: 0 error(s), 0 warning(s), 51.42 % complete
+
+
+Library edk:hwicap_v6_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:hwicap_v6_00_a]: 0 error(s), 0 warning(s), 51.64 % complete
+
+
+Library edk:hwicap_v6_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:hwicap_v6_01_a]: 0 error(s), 0 warning(s), 51.86 % complete
+
+
+Library edk:proc_common_v2_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:proc_common_v2_00_a]: 0 error(s), 0 warning(s), 52.08 % complete
+
+
+Library edk:interrupt_control_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:interrupt_control_v1_00_a]: 0 error(s), 0 warning(s), 52.30 % complete
+
+Exclude Superseded EDK child library iomodule_v1_00_a.
+Exclude Superseded EDK child library iomodule_v1_01_a.
+Exclude Superseded EDK child library iomodule_v1_02_a.
+Exclude Superseded EDK child library iomodule_v1_02_b.
+Exclude Superseded EDK child library iomodule_v1_03_a.
+
+Library edk:isbram_if_cntlr_v3_00_c will not be compiled, because precompiled info is up to date.
+compxlib[edk:isbram_if_cntlr_v3_00_c]: 0 error(s), 0 warning(s), 53.61 % complete
+
+
+Library edk:isocm_v10_v2_00_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:isocm_v10_v2_00_b]: 0 error(s), 0 warning(s), 53.83 % complete
+
+
+Library edk:jtagppc_cntlr_v2_01_c will not be compiled, because precompiled info is up to date.
+compxlib[edk:jtagppc_cntlr_v2_01_c]: 0 error(s), 0 warning(s), 54.05 % complete
+
+Exclude Superseded EDK child library lmb_bram_if_cntlr_v2_10_b.
+Exclude Superseded EDK child library lmb_bram_if_cntlr_v3_00_b.
+Exclude Superseded EDK child library lmb_bram_if_cntlr_v3_10_a.
+Exclude Superseded EDK child library lmb_bram_if_cntlr_v3_10_b.
+Exclude Superseded EDK child library lmb_bram_if_cntlr_v3_10_c.
+Exclude Superseded EDK child library lmb_v10_v1_00_a.
+Exclude Superseded EDK child library lmb_v10_v2_00_b.
+
+Library edk:plbv46_slave_single_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_slave_single_v1_01_a]: 0 error(s), 0 warning(s), 55.80 % complete
+
+Exclude Superseded EDK child library mailbox_v1_00_a.
+Exclude Superseded EDK child library mailbox_v1_01_a.
+Exclude Superseded EDK child library mailbox_v1_01_b.
+
+Library edk:plbv46_slave_burst_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_slave_burst_v1_01_a]: 0 error(s), 0 warning(s), 56.67 % complete
+
+
+Library edk:mch_plbv46_slave_burst_v2_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:mch_plbv46_slave_burst_v2_01_a]: 0 error(s), 0 warning(s), 56.89 % complete
+
+Exclude Superseded EDK child library mdm_v1_00_g.
+Exclude Superseded EDK child library mdm_v2_00_b.
+Exclude Superseded EDK child library mdm_v2_10_a.
+
+Library edk:mgt_protector_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:mgt_protector_v1_00_a]: 0 error(s), 0 warning(s), 57.77 % complete
+
+Exclude Superseded EDK child library microblaze_v7_30_b.
+Exclude Superseded EDK child library microblaze_v8_20_b.
+Exclude Superseded EDK child library microblaze_v8_30_a.
+Exclude Superseded EDK child library microblaze_v8_40_a.
+Exclude Superseded EDK child library microblaze_v8_40_b.
+Exclude Superseded EDK child library microblaze_v8_50_a.
+Exclude Superseded EDK child library microblaze_v8_50_b.
+Exclude Superseded EDK child library microblaze_v8_50_c.
+
+Library edk:mii_to_rmii_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:mii_to_rmii_v1_01_a]: 0 error(s), 0 warning(s), 59.74 % complete
+
+
+Library edk:mmcm_module_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:mmcm_module_v1_00_a]: 0 error(s), 0 warning(s), 59.96 % complete
+
+
+Library edk:mpmc_v6_06_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:mpmc_v6_06_a]: 0 error(s), 12 warning(s), 60.18 % complete
+
+Exclude Superseded EDK child library mutex_v1_00_a.
+
+Library edk:rdpfifo_v1_01_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:rdpfifo_v1_01_b]: 0 error(s), 0 warning(s), 60.61 % complete
+
+
+Library edk:wrpfifo_v1_01_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:wrpfifo_v1_01_b]: 0 error(s), 0 warning(s), 60.83 % complete
+
+
+Library edk:opb_ipif_v3_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:opb_ipif_v3_01_a]: 0 error(s), 0 warning(s), 61.05 % complete
+
+Exclude Superseded EDK child library opb2dcr_bridge_v1_00_b.
+
+Library edk:plbv46_master_burst_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_master_burst_v1_01_a]: 0 error(s), 0 warning(s), 61.49 % complete
+
+Exclude Superseded EDK child library opb_plbv46_bridge_v1_01_a.
+Exclude Superseded EDK child library opb_v20_v1_10_d.
+
+Library edk:pci_arbiter_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:pci_arbiter_v1_00_a]: 0 error(s), 0 warning(s), 62.14 % complete
+
+
+Library edk:proc_common_v1_00_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:proc_common_v1_00_b]: 0 error(s), 0 warning(s), 62.36 % complete
+
+Exclude Superseded EDK child library plb_v34_v1_02_a.
+Exclude Superseded EDK child library plb_v46_v1_04_a.
+
+Library edk:plb_v46_v1_05_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plb_v46_v1_05_a]: 0 error(s), 0 warning(s), 63.02 % complete
+
+Exclude Superseded EDK child library plbv46_axi_bridge_v2_00_a.
+
+Library edk:plbv46_axi_bridge_v2_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_axi_bridge_v2_01_a]: 0 error(s), 0 warning(s), 63.46 % complete
+
+
+Library edk:plbv46_dcr_bridge_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_dcr_bridge_v1_01_a]: 0 error(s), 0 warning(s), 63.68 % complete
+
+
+Library edk:plbv46_master_single_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_master_single_v1_01_a]: 0 error(s), 0 warning(s), 63.89 % complete
+
+
+Library edk:plbv46_master_v1_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_master_v1_03_a]: 0 error(s), 44 warning(s), 64.11 % complete
+
+
+Library edk:plbv46_master_v1_04_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_master_v1_04_a]: 0 error(s), 44 warning(s), 64.33 % complete
+
+Exclude Superseded EDK child library plbv46_opb_bridge_v1_01_a.
+
+Library edk:wrpfifo_v5_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:wrpfifo_v5_00_a]: 0 error(s), 0 warning(s), 64.77 % complete
+
+
+Library edk:rdpfifo_v4_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:rdpfifo_v4_01_a]: 0 error(s), 0 warning(s), 64.99 % complete
+
+
+Library edk:plbv46_slave_v1_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_slave_v1_03_a]: 0 error(s), 0 warning(s), 65.21 % complete
+
+Exclude Superseded EDK child library plbv46_pci_v1_03_a.
+
+Library edk:plbv46_slave_v1_05_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_slave_v1_05_a]: 0 error(s), 0 warning(s), 65.65 % complete
+
+
+Library edk:plbv46_pci_v1_04_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_pci_v1_04_a]: 0 error(s), 0 warning(s), 65.86 % complete
+
+
+Library edk:plbv46_slave_v1_04_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_slave_v1_04_a]: 0 error(s), 0 warning(s), 66.08 % complete
+
+
+Library edk:virtex6_pcie_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:virtex6_pcie_v1_01_a]: 0 error(s), 0 warning(s), 66.30 % complete
+
+
+Library edk:spartan6_pcie_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:spartan6_pcie_v1_01_a]: 0 error(s), 0 warning(s), 66.52 % complete
+
+Exclude Superseded EDK child library plbv46_pcie_v4_01_a.
+
+Library edk:virtex6_pcie_v1_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:virtex6_pcie_v1_02_a]: 0 error(s), 0 warning(s), 66.96 % complete
+
+
+Library edk:spartan6_pcie_v1_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:spartan6_pcie_v1_02_a]: 0 error(s), 0 warning(s), 67.18 % complete
+
+Exclude Superseded EDK child library plbv46_pcie_v4_02_a.
+
+Library edk:virtex6_pcie_v1_04_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:virtex6_pcie_v1_04_a]: 0 error(s), 21 warning(s), 67.61 % complete
+
+
+Library edk:spartan6_pcie_v1_04_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:spartan6_pcie_v1_04_a]: 0 error(s), 0 warning(s), 67.83 % complete
+
+Exclude Superseded EDK child library plbv46_pcie_v4_04_a.
+
+Library edk:virtex6_pcie_v1_05_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:virtex6_pcie_v1_05_a]: 0 error(s), 23 warning(s), 68.27 % complete
+
+Exclude Superseded EDK child library plbv46_pcie_v4_05_a.
+Exclude Superseded EDK child library plbv46_pcie_v4_06_a.
+
+Library edk:virtex6_pcie_v1_06_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:virtex6_pcie_v1_06_a]: 0 error(s), 4 warning(s), 68.93 % complete
+
+
+Library edk:plbv46_pcie_v4_07_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_pcie_v4_07_a]: 0 error(s), 12 warning(s), 69.15 % complete
+
+
+Library edk:plbv46_slave_v1_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_slave_v1_02_a]: 0 error(s), 0 warning(s), 69.37 % complete
+
+Exclude Superseded EDK child library plbv46_plbv46_bridge_v1_02_b.
+
+Library edk:wrpfifo_v5_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:wrpfifo_v5_01_a]: 0 error(s), 0 warning(s), 69.80 % complete
+
+
+Library edk:rdpfifo_v4_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:rdpfifo_v4_02_a]: 0 error(s), 0 warning(s), 70.02 % complete
+
+Exclude Superseded EDK child library plbv46_plbv46_bridge_v1_03_a.
+
+Library edk:plbv46_plbv46_bridge_v1_04_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:plbv46_plbv46_bridge_v1_04_a]: 0 error(s), 0 warning(s), 70.46 % complete
+
+
+Library edk:pll_module_v2_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:pll_module_v2_00_a]: 0 error(s), 0 warning(s), 70.68 % complete
+
+
+Library edk:ppc405_virtex4_v2_01_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:ppc405_virtex4_v2_01_b]: 0 error(s), 0 warning(s), 70.90 % complete
+
+
+Library edk:ppc440_virtex5_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:ppc440_virtex5_v1_01_a]: 0 error(s), 0 warning(s), 71.12 % complete
+
+Exclude Superseded EDK child library ppc440mc_ddr2_v3_00_b.
+
+Library edk:ppc440mc_ddr2_v3_00_c will not be compiled, because precompiled info is up to date.
+compxlib[edk:ppc440mc_ddr2_v3_00_c]: 0 error(s), 0 warning(s), 71.55 % complete
+
+Exclude Superseded EDK child library proc_sys_reset_v2_00_a.
+Exclude Superseded EDK child library proc_sys_reset_v3_00_a.
+
+Library edk:proc_utils_v1_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:proc_utils_v1_00_a]: 0 error(s), 0 warning(s), 72.21 % complete
+
+Exclude Superseded EDK child library processing_system7_v3_00_a.
+Exclude Superseded EDK child library processing_system7_v4_00_a.
+Exclude Superseded EDK child library processing_system7_v4_01_a.
+
+Library edk:processing_system7_v4_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:processing_system7_v4_02_a]: 0 error(s), 0 warning(s), 73.09 % complete
+
+
+Library edk:processing_system7_v4_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:processing_system7_v4_03_a]: 0 error(s), 0 warning(s), 73.30 % complete
+
+
+Library edk:soft_temac_wrap_v2_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:soft_temac_wrap_v2_02_a]: 0 error(s), 0 warning(s), 73.52 % complete
+
+
+Library edk:soft_temac_wrap_v2_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:soft_temac_wrap_v2_03_a]: 0 error(s), 0 warning(s), 73.74 % complete
+
+
+Library edk:spartan6_pcie_v1_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:spartan6_pcie_v1_03_a]: 0 error(s), 0 warning(s), 73.96 % complete
+
+Exclude Superseded EDK child library system_cache_v1_00_a.
+Exclude Superseded EDK child library system_cache_v1_01_a.
+Exclude Superseded EDK child library system_cache_v1_01_b.
+Exclude Superseded EDK child library system_cache_v1_01_c.
+Exclude Superseded EDK child library system_cache_v2_00_a.
+Exclude Superseded EDK child library system_cache_v2_00_b.
+Exclude Superseded EDK child library util_bus_split_v1_00_a.
+
+Library edk:util_ds_buf_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:util_ds_buf_v1_01_a]: 0 error(s), 0 warning(s), 75.71 % complete
+
+Exclude Superseded EDK child library util_flipflop_v1_10_a.
+Exclude Superseded EDK child library util_io_mux_v1_00_a.
+Exclude Superseded EDK child library util_reduced_logic_v1_00_a.
+Exclude Superseded EDK child library util_vector_logic_v1_00_a.
+Exclude Superseded EDK child library v_axi4s_vid_out_v2_00_a.
+
+Library edk:v_axi4s_vid_out_v2_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_axi4s_vid_out_v2_01_a]: 0 error(s), 0 warning(s), 77.02 % complete
+
+Exclude Superseded EDK child library v_tc_v4_00_a.
+Exclude Superseded EDK child library v_ccm_v4_00_a.
+Exclude Superseded EDK child library v_tc_v5_00_a.
+Exclude Superseded EDK child library v_ccm_v5_00_a.
+
+Library edk:v_tc_v5_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_tc_v5_01_a]: 0 error(s), 0 warning(s), 78.12 % complete
+
+
+Library edk:v_ccm_v5_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_ccm_v5_01_a]: 0 error(s), 0 warning(s), 78.34 % complete
+
+Exclude Superseded EDK child library v_cfa_v5_00_a.
+Exclude Superseded EDK child library v_cfa_v6_00_a.
+
+Library edk:v_cfa_v6_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_cfa_v6_01_a]: 0 error(s), 0 warning(s), 78.99 % complete
+
+Exclude Superseded EDK child library v_cresample_v2_00_a.
+Exclude Superseded EDK child library v_cresample_v3_00_a.
+
+Library edk:v_cresample_v3_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_cresample_v3_01_a]: 0 error(s), 0 warning(s), 79.65 % complete
+
+Exclude Superseded EDK child library v_deinterlacer_v2_00_a.
+
+Library edk:v_deinterlacer_v3_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_deinterlacer_v3_00_a]: 0 error(s), 0 warning(s), 80.09 % complete
+
+Exclude Superseded EDK child library v_enhance_v4_00_a.
+Exclude Superseded EDK child library v_enhance_v5_00_a.
+Exclude Superseded EDK child library v_enhance_v5_01_a.
+
+Library edk:v_enhance_v6_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_enhance_v6_00_a]: 0 error(s), 0 warning(s), 80.96 % complete
+
+Exclude Superseded EDK child library v_gamma_v5_00_a.
+Exclude Superseded EDK child library v_gamma_v6_00_a.
+
+Library edk:v_gamma_v6_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_gamma_v6_01_a]: 0 error(s), 0 warning(s), 81.62 % complete
+
+
+Library edk:v_ic_v3_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_ic_v3_00_a]: 0 error(s), 0 warning(s), 81.84 % complete
+
+Exclude Superseded EDK child library v_manr_v4_00_a.
+Exclude Superseded EDK child library v_manr_v5_00_a.
+
+Library edk:v_manr_v5_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_manr_v5_01_a]: 0 error(s), 0 warning(s), 82.49 % complete
+
+Exclude Superseded EDK child library v_noise_v4_00_a.
+Exclude Superseded EDK child library v_noise_v5_00_a.
+
+Library edk:v_noise_v5_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_noise_v5_01_a]: 0 error(s), 0 warning(s), 83.15 % complete
+
+
+Library edk:v_objseg_v3_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_objseg_v3_00_a]: 0 error(s), 0 warning(s), 83.37 % complete
+
+Exclude Superseded EDK child library v_osd_v4_00_a.
+Exclude Superseded EDK child library v_osd_v5_00_a.
+
+Library edk:v_osd_v5_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_osd_v5_01_a]: 0 error(s), 0 warning(s), 84.03 % complete
+
+Exclude Superseded EDK child library v_rgb2ycrcb_v5_00_a.
+Exclude Superseded EDK child library v_rgb2ycrcb_v6_00_a.
+
+Library edk:v_rgb2ycrcb_v6_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_rgb2ycrcb_v6_01_a]: 0 error(s), 0 warning(s), 84.68 % complete
+
+Exclude Superseded EDK child library v_scaler_v6_00_a.
+Exclude Superseded EDK child library v_scaler_v7_00_a.
+
+Library edk:v_scaler_v7_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_scaler_v7_01_a]: 0 error(s), 0 warning(s), 85.34 % complete
+
+Exclude Superseded EDK child library v_spc_v5_00_a.
+Exclude Superseded EDK child library v_spc_v6_00_a.
+
+Library edk:v_spc_v6_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_spc_v6_01_a]: 0 error(s), 0 warning(s), 86.00 % complete
+
+Exclude Superseded EDK child library v_stats_v4_00_a.
+Exclude Superseded EDK child library v_stats_v5_00_a.
+
+Library edk:v_stats_v5_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_stats_v5_01_a]: 0 error(s), 0 warning(s), 86.65 % complete
+
+
+Library edk:v_tpg_v4_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_tpg_v4_00_a]: 0 error(s), 2 warning(s), 86.87 % complete
+
+Exclude Superseded EDK child library v_vid_in_axi4s_v2_00_a.
+
+Library edk:v_vid_in_axi4s_v2_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_vid_in_axi4s_v2_01_a]: 0 error(s), 0 warning(s), 87.31 % complete
+
+Exclude Superseded EDK child library v_ycrcb2rgb_v5_00_a.
+Exclude Superseded EDK child library v_ycrcb2rgb_v6_00_a.
+
+Library edk:v_ycrcb2rgb_v6_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:v_ycrcb2rgb_v6_01_a]: 0 error(s), 0 warning(s), 87.96 % complete
+
+
+Library edk:virtex6_pcie_v1_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:virtex6_pcie_v1_03_a]: 0 error(s), 0 warning(s), 88.18 % complete
+
+
+Library edk:xps_bram_if_cntlr_v1_00_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_bram_if_cntlr_v1_00_b]: 0 error(s), 0 warning(s), 88.40 % complete
+
+Exclude Superseded EDK child library xps_can_v3_00_a.
+
+Library edk:xps_can_v3_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_can_v3_01_a]: 0 error(s), 0 warning(s), 88.84 % complete
+
+Exclude Superseded EDK child library xps_central_dma_v2_01_b.
+Exclude Superseded EDK child library xps_central_dma_v2_01_c.
+Exclude Superseded EDK child library xps_central_dma_v2_02_a.
+
+Library edk:xps_central_dma_v2_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_central_dma_v2_03_a]: 0 error(s), 0 warning(s), 89.72 % complete
+
+
+Library edk:xps_deltasigma_adc_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_deltasigma_adc_v1_01_a]: 0 error(s), 0 warning(s), 89.93 % complete
+
+
+Library edk:xps_deltasigma_dac_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_deltasigma_dac_v1_01_a]: 0 error(s), 0 warning(s), 90.15 % complete
+
+
+Library edk:xps_epc_v1_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_epc_v1_02_a]: 0 error(s), 0 warning(s), 90.37 % complete
+
+Exclude Superseded EDK child library xps_ethernetlite_v3_01_a.
+
+Library edk:xps_ethernetlite_v4_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_ethernetlite_v4_00_a]: 0 error(s), 1 warning(s), 90.81 % complete
+
+
+Library edk:xps_gpio_v2_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_gpio_v2_00_a]: 0 error(s), 0 warning(s), 91.03 % complete
+
+Exclude Superseded EDK child library xps_hwicap_v5_00_a.
+
+Library edk:xps_hwicap_v5_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_hwicap_v5_01_a]: 0 error(s), 0 warning(s), 91.47 % complete
+
+Exclude Superseded EDK child library xps_iic_v2_01_a.
+Exclude Superseded EDK child library xps_iic_v2_02_a.
+
+Library edk:xps_iic_v2_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_iic_v2_03_a]: 0 error(s), 0 warning(s), 92.12 % complete
+
+Exclude Superseded EDK child library xps_spi_v2_01_b.
+Exclude Superseded EDK child library xps_insystem_flash_v1_01_b.
+
+Library edk:xps_spi_v2_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_spi_v2_02_a]: 0 error(s), 0 warning(s), 92.78 % complete
+
+
+Library edk:xps_insystem_flash_v1_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_insystem_flash_v1_02_a]: 0 error(s), 0 warning(s), 93.00 % complete
+
+Exclude Superseded EDK child library xps_intc_v2_00_a.
+
+Library edk:xps_intc_v2_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_intc_v2_01_a]: 0 error(s), 0 warning(s), 93.44 % complete
+
+
+Library edk:xps_ll_fifo_v1_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_ll_fifo_v1_02_a]: 0 error(s), 0 warning(s), 93.65 % complete
+
+
+Library edk:xps_ll_temac_v2_03_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_ll_temac_v2_03_a]: 0 error(s), 0 warning(s), 93.87 % complete
+
+Exclude Superseded EDK child library xps_mailbox_v2_00_b.
+
+Library edk:xps_mch_emc_v3_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_mch_emc_v3_01_a]: 0 error(s), 0 warning(s), 94.31 % complete
+
+Exclude Superseded EDK child library xps_most_nic_v1_01_a.
+Exclude Superseded EDK child library xps_most_nic_v1_02_a.
+Exclude Superseded EDK child library xps_most_nic_v1_03_a.
+Exclude Superseded EDK child library xps_mutex_v1_00_d.
+Exclude Superseded EDK child library xps_ps2_v1_01_a.
+
+Library edk:xps_ps2_v1_01_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_ps2_v1_01_b]: 0 error(s), 0 warning(s), 95.62 % complete
+
+
+Library edk:xps_sysace_v1_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_sysace_v1_01_a]: 0 error(s), 0 warning(s), 95.84 % complete
+
+Exclude Superseded EDK child library xps_sysmon_adc_v2_00_a.
+Exclude Superseded EDK child library xps_sysmon_adc_v3_00_a.
+
+Library edk:xps_sysmon_adc_v3_00_b will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_sysmon_adc_v3_00_b]: 0 error(s), 0 warning(s), 96.50 % complete
+
+
+Library edk:xps_tft_v2_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_tft_v2_01_a]: 0 error(s), 0 warning(s), 96.72 % complete
+
+Exclude Superseded EDK child library xps_timebase_wdt_v1_01_a.
+
+Library edk:xps_timebase_wdt_v1_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_timebase_wdt_v1_02_a]: 0 error(s), 0 warning(s), 97.16 % complete
+
+Exclude Superseded EDK child library xps_timer_v1_01_b.
+
+Library edk:xps_timer_v1_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_timer_v1_02_a]: 0 error(s), 0 warning(s), 97.59 % complete
+
+
+Library edk:xps_uart16550_v3_00_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_uart16550_v3_00_a]: 0 error(s), 0 warning(s), 97.81 % complete
+
+Exclude Superseded EDK child library xps_uartlite_v1_01_a.
+
+Library edk:xps_uartlite_v1_02_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_uartlite_v1_02_a]: 0 error(s), 0 warning(s), 98.25 % complete
+
+Exclude Superseded EDK child library xps_usb2_device_v2_00_a.
+Exclude Superseded EDK child library xps_usb2_device_v3_00_a.
+Exclude Superseded EDK child library xps_usb2_device_v3_01_a.
+Exclude Superseded EDK child library xps_usb2_device_v4_00_a.
+Exclude Superseded EDK child library xps_usb2_device_v5_00_a.
+Exclude Superseded EDK child library xps_usb2_device_v6_00_a.
+Exclude Superseded EDK child library xps_usb2_device_v7_00_a.
+
+Library edk:xps_usb2_device_v7_01_a will not be compiled, because precompiled info is up to date.
+compxlib[edk:xps_usb2_device_v7_01_a]: 0 error(s), 0 warning(s), 100.00 % complete
+
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(mti_se::edk)
+Modifying modelsim.ini
+
+
+END_COMPILATION_MESSAGES(mti_se::edk)
+==============================================================================
+compxlib[edk]: 2 error(s), 221 warning(s), 100.00 % complete
+
+
+Setup file 'C:\Xilinx\14.7\ISE_DS\ISE\verilog\mti_se\10.1c\nt64/modelsim.ini' exists, no copying from 'modelsim.ini' ...
+**********************************************************************************************
+*                                   COMPILATION SUMMARY                                      *
+*                                                                                            *
+*  Simulator used: mti_se                                                                    *
+*  Compiled on: Tue Jun 27 10:37:08 2023                                                     *
+*                                                                                            *
+**********************************************************************************************
+*               Library                |  Lang   |  Mapped Name(s)   | Err#(s)  |  Warn#(s)  *
+*--------------------------------------------------------------------------------------------*
+*  edk                                 |         | edk               | 2        | 221        *
+*--------------------------------------------------------------------------------------------*
+
