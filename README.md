@@ -1,2 +1,2 @@
 # IUT
-Some random projects and coding assignments of some courses in my university
+Some projects and coding assignments of some courses in my university
