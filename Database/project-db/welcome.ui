@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Welcome</class>
+ <widget class="QMainWindow" name="Welcome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>945</width>
+    <height>664</height>
+   </rect>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="background_image">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>951</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>utils/images/Untitled.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MoneyTransfer">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>20</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,200);
+border-style:inset;
+}
+
+QPushButton:hover{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,100);
+}</string>
+    </property>
+    <property name="text">
+     <string>money transfer</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>931</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0, 100);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 20pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>loan:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>320</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,200);
+border-style:inset;
+}
+
+QPushButton:hover{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,100);
+}</string>
+    </property>
+    <property name="text">
+     <string>my loans</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>320</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,200);
+border-style:inset;
+}
+
+QPushButton:hover{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,100);
+}</string>
+    </property>
+    <property name="text">
+     <string>installment list</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>430</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,200);
+border-style:inset;
+}
+
+QPushButton:hover{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,100);
+}</string>
+    </property>
+    <property name="text">
+     <string>loan application</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>500</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,200);
+border-style:inset;
+}
+
+QPushButton:hover{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,100);
+}</string>
+    </property>
+    <property name="text">
+     <string>loan amount</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>350</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,200);
+border-style:inset;
+}
+
+QPushButton:hover{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,100);
+}</string>
+    </property>
+    <property name="text">
+     <string>payment</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>351</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0, 100);
+color: rgb(255, 255, 255);
+font: 15pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string> my accounts:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>351</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(192, 190, 255);
+</string>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>70</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>acc num</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>username</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>active loan</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>balance</string>
+     </property>
+     <property name="whatsThis">
+      <string notr="true"/>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>blocked</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLineEdit" name="dcn">
+    <property name="geometry">
+     <rect>
+      <x>536</x>
+      <y>20</y>
+      <width>119</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>destination card number</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="balance">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>20</y>
+      <width>120</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>balance</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>60</y>
+      <width>531</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0, 100);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>60</y>
+      <width>351</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(192, 190, 255);
+</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>source card num</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>destination card num</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>year</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>month</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>day</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>hour</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>min</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>amount</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>successfull</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="DTransaction">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>148</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,200);
+border-style:inset;
+}
+
+QPushButton:hover{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,100);
+}</string>
+    </property>
+    <property name="text">
+     <string>D transaction</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="NTransaction">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>70</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,200);
+border-style:inset;
+}
+
+QPushButton:hover{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,100);
+}</string>
+    </property>
+    <property name="text">
+     <string>N transaction</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nEditLine">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>108</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>input the number</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="dateEditLine">
+    <property name="geometry">
+     <rect>
+      <x>415</x>
+      <y>181</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>start date (format 2023-01-01)</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="dateEditLine_2">
+    <property name="geometry">
+     <rect>
+      <x>415</x>
+      <y>203</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>start date (format 2023-01-01)</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>360</y>
+      <width>291</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(192, 190, 255);</string>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAsNeeded</enum>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>71</number>
+    </attribute>
+    <attribute name="horizontalHeaderHighlightSections">
+     <bool>true</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>loan ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>acc number</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>amount</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>payments</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>username</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>360</y>
+      <width>291</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(192, 190, 255);</string>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>70</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>loan ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>pay num</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>year</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>month</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>day</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>amount</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>paid</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLineEdit" name="loanID">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>320</y>
+      <width>119</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>loan_ID</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="loanID_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>350</y>
+      <width>119</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>loan_ID</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>570</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 15pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MoneyTransfer_4">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>465</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,200);
+border-style:inset;
+}
+
+QPushButton:hover{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed{
+ border-radius:15px;
+color: rgb(255, 255, 255);
+font: 10pt &quot;Cambria&quot;;
+background-color: rgb(255, 0, 0,100);
+}</string>
+    </property>
+    <property name="text">
+     <string>Block account</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>430</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 0, 0, 250);
+color : rgb(255, 255, 255);
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>normal type</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>loan to by housing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>loan to by a laptop</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cscn">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>20</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : rgb(255, 255, 255);
+font: 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(170, 170, 255, 100);</string>
+    </property>
+    <property name="placeholderText">
+     <string>source card number</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cAcc_num">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>230</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : rgb(255, 255, 255);
+font: 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(170, 170, 255, 100);</string>
+    </property>
+    <property name="placeholderText">
+     <string>account number</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cAcc_num_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>465</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : rgb(255, 255, 255);
+font: 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(170, 170, 255, 100);</string>
+    </property>
+    <property name="placeholderText">
+     <string>account number</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>945</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
