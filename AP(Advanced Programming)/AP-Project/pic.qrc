@@ -1,0 +1,60 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>add to cart.png</file>
+        <file>Back.png</file>
+        <file>Buy.png</file>
+        <file>cancel.png</file>
+        <file>cart.png</file>
+        <file>creat.png</file>
+        <file>creat_account.png</file>
+        <file>forget.png</file>
+        <file>iranserver.gif</file>
+        <file>log out.png</file>
+        <file>login.png</file>
+        <file>loginbotten.png</file>
+        <file>logo.png</file>
+        <file>page cart.png</file>
+        <file>Search.png</file>
+        <file>start.png</file>
+        <file>total price.png</file>
+        <file>wallet.png</file>
+        <file>XXwt.gif</file>
+        <file>remove cart.png</file>
+        <file>loadi1_txt.png</file>
+        <file>lod2.gif</file>
+        <file>lod3.gif</file>
+        <file>user.png</file>
+        <file>save.png</file>
+        <file>cancel_dialog.png</file>
+        <file>ban.png</file>
+        <file>delete.png</file>
+        <file>BitcoinAd.gif</file>
+        <file>add_kala.png</file>
+        <file>delete_kala.png</file>
+        <file>change photo.png</file>
+        <file>add photo.png</file>
+        <file>null.png</file>
+        <file>traconesh.png</file>
+        <file>Second password.png</file>
+        <file>cancel for kala.png</file>
+        <file>Patment.png</file>
+        <file>internet.png</file>
+        <file>confrim.png</file>
+        <file>cancel fot traconsh.png</file>
+        <file>factor.png</file>
+        <file>Previous.png</file>
+        <file>Next.png</file>
+        <file>backadmin.png</file>
+        <file>Screenshot_2022-07-07_011802-removebg-preview.png</file>
+        <file>0bikalam download1music.ir (5).mp3</file>
+        <file>ezgif.com-gif-maker (1).gif</file>
+        <file>Screenshot_2022-07-06_185030-removebg-preview.png</file>
+        <file>game over.png</file>
+        <file>golf.png</file>
+        <file>images-removebg-preview11111.png</file>
+        <file>mountain-range-landscape-mountains-panorama-clouds-meadow-vector-background-image-flat-cartoon-style-horizon-view-193516621.jpg</file>
+        <file>refresh.png</file>
+        <file>confirmation.png</file>
+        <file>instaler.ico</file>
+    </qresource>
+</RCC>
