@@ -1,0 +1,19 @@
+Ali_Taheri_40012323@oslab09:~/Desktop$ cd /
+
+Ali_Taheri_40012323@oslab09:/$ ls -l
+
+
+touch myfile
+
+stat myfile | grep 'Access: 2024' >> report.txt
+
+vi myfile
+
+stat myfile | grep 'Access: 2024' >> report.txt
+
+chmod -w myfile
+
+touch --date="6 months ago" myfile
+
+stat myfile | grep 'Access: 2024-03' >> report.txt
+

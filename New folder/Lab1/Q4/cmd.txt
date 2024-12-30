@@ -1,0 +1,9 @@
+apt search neofetch
+
+sudo apt install search neofetch
+sudo apt install neofetch
+
+ls -r /etc/ | grep bash >> report.txt
+
+cat /etc/bash.bashrc | grep if 
+

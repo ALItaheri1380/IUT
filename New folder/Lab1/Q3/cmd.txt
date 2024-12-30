@@ -1,0 +1,2 @@
+top -b -o +%MEM | head | tail -n 3 >> report.txt
+ps -aux | grep kworker >> report.txt

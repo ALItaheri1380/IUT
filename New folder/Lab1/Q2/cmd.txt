@@ -1,0 +1,9 @@
+ping 172.21.49.220
+
+sudo apt install openssh-server
+
+sudo ufw allow 22
+
+ssh oslab01@172.21.49.206
+
+sudo scp Sobhan_Aghajani_40117963@172.21.49.206:/home/Sobhan_Aghajani_40117963/Desktop/otherFile .
